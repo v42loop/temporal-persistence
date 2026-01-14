@@ -93,7 +93,7 @@ Key values exposed during ticks (with `debug=True`):
 
 ## Design Philosophy
 
-**Demand over semantics.** The system responds to input intensity—length, caps, punctuation—rather than meaning. Text becomes a perturbation source that triggers temporal dynamics.
+**Demand over semantics.** The system responds to input intensity—length, caps, punctuation. Text becomes a perturbation source that triggers temporal dynamics.
 
 **Deterministic core with controlled drift.** Symbol emission follows rules. Stochasticity appears in epsilon-gated misalignment and memory recall probability, keeping behavior grounded while allowing phase variation.
 
@@ -106,3 +106,4 @@ Most recurrent models focus on sequence prediction or memory retrieval. This one
 ## License
 
 MIT
+
